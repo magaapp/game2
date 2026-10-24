@@ -196,7 +196,7 @@
             const statusText = document.getElementById('status-text');
             try {
                 statusText.innerText = "جاري تسجيل الخدمة...";
-                const registration = await navigator.serviceWorker.register('/vid/firebase-messaging-sw.js', {
+                const registration = await navigator.serviceWorker.register('/game2/firebase-messaging-sw.js', {
                     scope: '/vid/'
                 });
                 
